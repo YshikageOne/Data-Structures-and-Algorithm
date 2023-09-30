@@ -8,4 +8,5 @@ Week 4 - Cryptography<br />
 Week 5 - Exam<br />
 Week 6 - Sorting Algorithms<br />
 Week 7 - Stacks<br />
+Week 8 - Queue
 
