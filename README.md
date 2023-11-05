@@ -12,4 +12,5 @@ Week 8 - Queue <br />
 Week 9 - Exam No.2 <br />
 Week 10 - LinkedList <br />
 Week 11 - Binary Trees <br />
-Week 12 - Binary Search Trees
+Week 12 - Binary Search Trees <br />
+Week 13 - Heaps and Priority Queues
