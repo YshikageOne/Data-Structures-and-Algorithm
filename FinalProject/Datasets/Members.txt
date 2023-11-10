@@ -1,0 +1,10 @@
+1|John Doe|20|CS|2
+2|Jane Smith|21|IS|3
+3|Bob Johnson|19|IT|1
+4|Alice Williams|22|CS|4
+5|Charlie Brown|20|IS|2
+6|Mary Davis|21|IT|3
+7|James Miller|19|CS|1
+8|Patricia Wilson|22|IS|4
+9|Robert Moore|20|IT|2
+10|Jennifer Taylor|21|CS|3

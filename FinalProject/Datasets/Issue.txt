@@ -1,0 +1,6 @@
+1|1|John Doe|1|Harry Potter and the Philosopher's Stone|11/11/23|11/12/23
+3|2|Jane Smith|3|To Kill a Mockingbird|11/11/23|11/20/23
+4|4|Alice Williams|4|1984|11/11/23|11/24/23
+5|5|Bob Johnson|5|The Catcher in the Rye|11/11/23|11/25/23
+7|7|David Davis|7|Fahrenheit 451|11/11/23|11/27/23
+10|10|Grace Green|10|Moby-Dick|11/11/23|11/30/23
