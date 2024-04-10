@@ -1,6 +1,8 @@
 package week4;
 
 import javax.swing.JOptionPane;
+import javax.swing.JTextArea;
+import javax.swing.JScrollPane;
 
 //made by ME CLYDEEEEE
 
@@ -16,12 +18,20 @@ public class VigenereCipherv3 {
                 String message = JOptionPane.showInputDialog("Enter the message to encrypt:");
                 String keyword = JOptionPane.showInputDialog("Enter the keyword:");
                 String encryptedMessage = encryptVigenere(message, keyword);
-                JOptionPane.showMessageDialog(null, "Encrypted Message: " + encryptedMessage);
+                JTextArea textArea = new JTextArea(5, 20);
+                textArea.setText("Encrypted Message: \n" + encryptedMessage);
+                textArea.setEditable(false);
+                JScrollPane scrollPane = new JScrollPane(textArea);
+                JOptionPane.showMessageDialog(null, scrollPane, "Output", JOptionPane.INFORMATION_MESSAGE);
             } else if (choice == 1) { // Decrypt
                 String encryptedMessage = JOptionPane.showInputDialog("Enter the encrypted message:");
                 String keyword = JOptionPane.showInputDialog("Enter the keyword:");
                 String decryptedMessage = decryptVigenere(encryptedMessage, keyword);
-                JOptionPane.showMessageDialog(null, "Decrypted Message: " + decryptedMessage);
+                JTextArea textArea = new JTextArea(5, 20);
+                textArea.setText("Decrypted Message: \n" + decryptedMessage);
+                textArea.setEditable(false);
+                JScrollPane scrollPane = new JScrollPane(textArea);
+                JOptionPane.showMessageDialog(null, scrollPane, "Output", JOptionPane.INFORMATION_MESSAGE);
             } else if (choice == 2) { // Exit
                 break;
             }
